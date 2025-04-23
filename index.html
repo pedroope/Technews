@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title></title>
+  </head>
+  <body>
+   
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#">Bem-Vindo Ao TechNews</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#noticias">Notícias</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#tendencias">Tendências</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#analises">Análises</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contato">Contato</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <section id="home" class="hero bg-primary text-white text-center py-5">
+        <div class="container">
+          <h1 class="display-5">Últimas Notícias em Tecnologia</h1>
+          <p class="lead">Fique por dentro das inovações mais impactantes do mundo digital.</p>
+          <a href="#noticias" class="btn btn-light btn-lg">Leia Mais</a>
+        </div>
+
+
+        
+      </section>
+      <div id="carouselNoticias" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+      
+     
+          <div class="carousel-item active">
+            <img src="https://www.gov.br/mcti/pt-br/acompanhe-o-mcti/noticias/2025/01/brasil-prepara-nanossatelite-para-lancamento-ao-espaco/brasil-vai-lancar-nanossatelite-desenvolvido-na-ufma-com-apoio-da-agencia-espacial-brasileira-1.png/@@images/460f4897-b450-4f78-9878-c8339ea03e2c.png" class="d-block w-100" alt="Lançamento Do Nanossatélite Brasileiro">
+            <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-3">
+              <h5>Brasil prepara nanossatélite para lançamento ao espaço</h5>
+              <p>Nanossatélite desenvolvido na UFMA, com apoio da Agência Espacial Brasileira, será utilizado para localização e salvamento de pequenas embarcações em situações de emergência no mar e para a prevenção de queimadas.</p>
+            </div>
+          </div>
+      
+    
+          <div class="carousel-item">
+            <img src="https://itforum.com.br/wp-content/uploads/2024/05/inteligencia-artificial-ia.jpg" class="d-block w-100" alt="IA na Saúde">
+            <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-3">
+              <h5>IA reduz tempo de diagnóstico em hospitais</h5>
+              <p>Estudo revela que sistemas de inteligência artificial diminuíram em 40% o tempo médio de diagnóstico de doenças cardíacas.</p>
+            </div>
+          </div>
+     
+
+          <div class="carousel-item">
+            <img src="data:image/jpeg;base64,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" class="d-block w-100" alt="5G Expande Alcance">
+            <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-3">
+              <h5>5G atinge 100 cidades no Brasil</h5>
+              <p>A cobertura 5G foi oficialmente lançada em 100 municípios brasileiros, oferecendo internet ultrarrápida a milhões de usuários.</p>
+            </div>
+          </div>
+      
+       
+          <div class="carousel-item">
+            <img src="https://via.placeholder.com/800x400?text=Seguran%C3%A7a+Digital" class="d-block w-100" alt="Segurança Digital">
+            <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-3">
+              <h5>Nova vulnerabilidade em IoT é descoberta</h5>
+              <p>Pesquisadores alertam sobre falha em dispositivos IoT que pode expor dados sensíveis de usuários domésticos.</p>
+            </div>
+          </div>
+      
+        
+          <div class="carousel-item">
+            <img src="https://via.placeholder.com/800x400?text=Realidade+Virtual+Avan%C3%A7a" class="d-block w-100" alt="Realidade Virtual Avança">
+            <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-3">
+              <h5>Mercado de Realidade Virtual cresce 25% em 2025</h5>
+              <p>Relatório indica que investimentos em VR e AR impulsionaram o mercado global, com aplicações em educação e saúde.</p>
+            </div>
+          </div>
+      
+        </div>
+      
+       
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselNoticias" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselNoticias" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Próximo</span>
+        </button>
+      </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
